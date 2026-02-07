@@ -1,5 +1,7 @@
 # Lux Meter
 
+<img src="https://github.com/easai/Lux-Meter/blob/main/images/IMG_2940.jpeg" width="300" alt="Lux Meter"/>
+
 ## Overview
 This project measures ambient light using a VEML7700 digital light sensor connected to an ESP32 C3 SuperMini. The measured light level is shown on a 128x64 SSD1306 OLED display. Both devices share the same I2C bus and operate at 3.3 V.
 
