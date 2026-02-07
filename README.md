@@ -39,6 +39,9 @@ This project measures ambient light using a VEML7700 digital light sensor connec
 | VEML7700      | 0x10    |
 
 ## Display Layout
+
+<img src="https://github.com/easai/Lux-Meter/blob/main/images/IMG_2945.jpeg" width="300" alt="Lux Meter in operation" />
+
 The OLED shows a small LUX label at the top and a large integer lux value below it.
 
 
