@@ -14,6 +14,8 @@ This project measures ambient light using a VEML7700 digital light sensor connec
 
 ## Pin Configuration
 
+<img src="https://github.com/easai/Lux-Meter/blob/main/images/IMG_2946.jpeg" width="300" alt="Lux Meer internal layout" />
+
 ### ESP32 C3 SuperMini to VEML7700
 | ESP32 C3 Pin | VEML7700 Pin |
 |--------------|--------------|
