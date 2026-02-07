@@ -45,3 +45,19 @@ This project measures ambient light using a VEML7700 digital light sensor connec
 The OLED shows a small LUX label at the top and a large integer lux value below it.
 
 
+## Datasheets
+
+This project uses components with publicly available datasheets. These documents provide electrical characteristics, timing behavior, I2C register maps, and recommended operating conditions.
+
+Component: VEML7700 Ambient Light Sensor  
+Description: High-accuracy ambient light sensor with wide dynamic range  
+Datasheet: https://www.vishay.com/docs/84286/veml7700.pdf
+
+Component: ESP32 C3 or ESP8266  
+Description: WiFi microcontroller used for acquisition and reporting  
+Datasheet Index: https://www.espressif.com/en/support/documents/technical-documents
+
+Component: SSD1306 OLED Display  
+Description: 128x64 I2C display used for local readout  
+Datasheet: https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+
