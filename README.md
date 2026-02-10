@@ -1,5 +1,7 @@
 # Lux Meter
 
+<img src="https://github.com/easai/Lux-Meter/blob/main/images/IMG_2940.jpeg" width="300" alt="Lux Meter"/>
+
 ## Overview
 This project measures ambient light using a VEML7700 digital light sensor connected to an ESP32 C3 SuperMini. The measured light level is shown on a 128x64 SSD1306 OLED display. Both devices share the same I2C bus and operate at 3.3 V.
 
@@ -11,6 +13,8 @@ This project measures ambient light using a VEML7700 digital light sensor connec
 • Supports separate environments for firmware and testing  
 
 ## Pin Configuration
+
+<img src="https://github.com/easai/Lux-Meter/blob/main/images/IMG_2946.jpeg" width="300" alt="Lux Meer internal layout" />
 
 ### ESP32 C3 SuperMini to VEML7700
 | ESP32 C3 Pin | VEML7700 Pin |
@@ -35,6 +39,25 @@ This project measures ambient light using a VEML7700 digital light sensor connec
 | VEML7700      | 0x10    |
 
 ## Display Layout
+
+<img src="https://github.com/easai/Lux-Meter/blob/main/images/IMG_2945.jpeg" width="300" alt="Lux Meter in operation" />
+
 The OLED shows a small LUX label at the top and a large integer lux value below it.
 
+
+## Datasheets
+
+This project uses components with publicly available datasheets. These documents provide electrical characteristics, timing behavior, I2C register maps, and recommended operating conditions.
+
+Component: VEML7700 Ambient Light Sensor  
+Description: High-accuracy ambient light sensor with wide dynamic range  
+Datasheet: https://www.vishay.com/docs/84286/veml7700.pdf
+
+Component: ESP32 C3 or ESP8266  
+Description: WiFi microcontroller used for acquisition and reporting  
+Datasheet Index: https://www.espressif.com/en/support/documents/technical-documents
+
+Component: SSD1306 OLED Display  
+Description: 128x64 I2C display used for local readout  
+Datasheet: https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
 
