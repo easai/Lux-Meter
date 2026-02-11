@@ -44,6 +44,20 @@ This project measures ambient light using a VEML7700 digital light sensor connec
 
 The OLED shows a small LUX label at the top and a large integer lux value below it.
 
+## Case 3MF Files
+
+This project includes printable enclosure files for the Lux Meter. 
+
+Contents of the /case directory:
+
+• Complete enclosure in 3MF format  
+• Lid and base components as separate files  
+• Internal alignment features matched to the ESP32 C3 SuperMini and VEML7700  
+• Clearances verified for the SSD1306 OLED module  
+• Models prepared for standard FDM printing tolerances
+
+All STL files are located in the /case directory of this repository.
+
 
 ## Datasheets
 
